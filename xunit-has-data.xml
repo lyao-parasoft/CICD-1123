@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExampleSuite" tests="3" failures="1" errors="0" skipped="1" time="0.123">
+    
+    <testcase classname="example.TestClass" name="test_success" time="0.01"/>
+    
+    <testcase classname="example.TestClass" name="test_failure" time="0.02">
+        <failure message="assertion failed">Expected true but got false</failure>
+    </testcase>
+    
+    <testcase classname="example.TestClass" name="test_skipped" time="0">
+        <skipped message="not implemented"/>
+    </testcase>
+
+</testsuite>
