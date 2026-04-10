@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="1"
+           timestamp="2026-04-10T10:00:00"
+           time="0.045">
+
+    <!-- 成功 -->
+    <testcase classname="com.example.CalculatorTest"
+              name="testAdd"
+              time="0.010"/>
+
+    <!-- 失败 -->
+    <testcase classname="com.example.CalculatorTest"
+              name="testDivide"
+              time="0.020">
+        <failure message="Division by zero"
+                 type="java.lang.ArithmeticException">
+            java.lang.ArithmeticException: / by zero
+        </failure>
+    </testcase>
+
+    <!-- 跳过 -->
+    <testcase classname="com.example.CalculatorTest"
+              name="testMultiply"
+              time="0.000">
+        <skipped message="Test not implemented"/>
+    </testcase>
+
+</testsuite>
